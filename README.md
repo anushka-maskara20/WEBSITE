@@ -1,53 +1,92 @@
-# Brew & Bloom — Café Website
+# Brew & Bloom — Café Website ☕
 
-A beginner-friendly, responsive café website built with HTML, CSS, and vanilla JavaScript. This is a front-end student project with sample content and illustrative menu prices.
+A beginner-friendly, responsive café website built using HTML, CSS, and vanilla JavaScript. This project was created as part of a beginner web development assignment.
 
-## Project idea
+## 1. Project Overview
 
-**Brew & Bloom** is a fictional neighbourhood café. The website introduces the café, shares its story, highlights a few menu favourites, and helps visitors find opening hours and contact details.
+**Brew & Bloom** is a fictional neighbourhood café website designed to create a warm and welcoming online experience. It introduces the café, showcases popular menu items, shares its story, and provides information for visitors.
 
-**Target audience:** students, remote workers, coffee lovers, and people looking for a welcoming café.
+**Purpose:** To demonstrate basic website design, front-end development, JavaScript interactivity, responsive design, and website deployment.
 
-## Features
+**Target Audience:** Students, coffee lovers, remote workers, and people looking for a comfortable café experience.
 
-- Clean, warm café-inspired design
-- Responsive layout for desktop, tablet, and mobile
-- Mobile navigation menu
-- Interactive hero image carousel
-- Menu category filters (All, Coffee, Bakes, Coolers)
-- Smooth scrolling and hover interactions
-- Semantic HTML and accessible button labels
+## 2. Features
 
-## Technology stack
+- **Attractive User Interface:** A clean, modern design with warm colours and café photography.
+- **Responsive Design:** Adapts to desktop, tablet, and mobile screens.
+- **Interactive Navigation:** A mobile-friendly menu for easy navigation.
+- **Image Carousel:** Interactive buttons allow users to browse featured café images.
+- **Menu Category Filters:** Filter menu items by All Favourites, Coffee, Bakes, and Coolers.
+- **Smooth Scrolling:** Navigation links smoothly move to different sections.
+- **Hover Effects:** Interactive visual effects enhance the browsing experience.
+- **Café Information:** Includes the café story, sample menu, opening hours, address, and contact link.
 
-- HTML5 — page structure and content
-- CSS3 — layout, styling, responsive media queries
-- JavaScript — navigation, carousel, and menu filters
-- Google Fonts and Unsplash — external typography and photography
+## 3. Technology Stack
 
-## Run locally
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure and content |
+| CSS3 | Styling, layout, animations, and responsive design |
+| JavaScript | Navigation menu, image carousel, and menu filters |
+| Google Fonts | Website typography |
+| Unsplash | Café photography |
+| GitHub Pages | Website hosting and deployment |
 
-1. Download or clone this repository.
-2. Open `index.html` in a web browser.
+## 4. Project Structure
 
-No build tools or package installation are required. An internet connection is needed for the external fonts and photos.
+```text
+WEBSITE/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-## Deploy with GitHub Pages
+- `index.html` — Contains the website structure and content.
+- `style.css` — Controls the website's appearance and responsive layout.
+- `script.js` — Implements the interactive features.
+- `README.md` — Provides project documentation and setup instructions.
 
-1. Create a new repository on GitHub, for example `brew-bloom-website`.
-2. Upload `index.html`, `style.css`, `script.js`, and `README.md` to the repository's root folder.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose the `main` branch and `/ (root)` folder, then click **Save**.
-6. Wait for GitHub Pages to publish the site. The live URL will appear in the Pages section and usually looks like `https://YOUR-USERNAME.github.io/brew-bloom-website/`.
+## 5. How to Run Locally
 
-## Customise before submitting
+1. Clone or download this repository.
+2. Open the project folder.
+3. Open `index.html` in a web browser.
+4. Ensure you have an internet connection for external fonts and images.
 
-- Replace “Your City” and the sample address with your preferred fictional or real project details.
-- Update the email link if needed.
-- Check that external images load and replace any image URL that stops working.
-- Add your GitHub repository URL and published live URL to your submission.
+No additional software installation or build tools are required.
 
-## Note
+## 6. Deployment Using GitHub Pages
 
-Brew & Bloom is fictional. The menu, prices, address, and opening hours are demonstration content and are not a real business listing.
+This website is hosted using GitHub Pages.
+
+**Repository:**  
+https://github.com/anushka-maskara20/WEBSITE
+
+**Live Website:**  
+https://anushka-maskara20.github.io/WEBSITE/
+
+To configure deployment:
+
+1. Open the GitHub repository.
+2. Navigate to **Settings → Pages**.
+3. Select **Deploy from a branch** under Build and deployment.
+4. Select the `main` branch and the `/(root)` folder.
+5. Click **Save** and wait for the deployment to complete.
+6. Open the live website URL to view the published project.
+
+## 7. Future Improvements
+
+- Add a working online table reservation form.
+- Introduce more menu items and category options.
+- Add a dedicated contact form.
+- Improve accessibility and optimise image loading.
+- Integrate a backend for storing customer enquiries.
+
+## 8. Disclaimer
+
+Brew & Bloom is a fictional café created for educational purposes. The menu items, prices, address, and opening hours are illustrative and do not represent an actual business.
+
+---
+
+**Developed as a beginner web development project using HTML, CSS, and JavaScript.**
